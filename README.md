@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Tristen Campayne
 
-**Data & Business Intelligence Analyst** leveraging SQL, Python, and BI tools to turn data into strategy.  
+**Data Professional** leveraging SQL, Python, and BI tools to turn data into strategy.  
 Experienced in **machine learning, A/B testing, and digital marketing analytics** to drive performance and data-informed decision-making.
 
 ---
