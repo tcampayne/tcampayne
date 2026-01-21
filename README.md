@@ -15,7 +15,7 @@ Experienced in **machine learning, A/B testing, and digital marketing analytics*
 ### 📁 Featured Projects
 - **[FP&A Profitability & Competitive Trends Dashboard](https://github.com/tcampayne/company-performance-tableau-dashboard)**  
   Interactive Tableau dashboard analyzing 20 years of company performance and profitability.  
-  *Tools:* Tableau, SQL, Excel
+  Tools: Tableau, SQL, Excel
 
 ---
 
