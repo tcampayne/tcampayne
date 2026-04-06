@@ -22,7 +22,7 @@ I build end-to-end projects that:
 ## 📌 Featured Work
 
 ### 🧪 A/B Promotion Incrementality Analysis  
-👉 **[View Project Repo](https://github.com/tcampayne/ab-promo-incrementality)**  
+👉 **[View Project Repo](https://github.com/tcampayne/targeted-promotion-incrementality-experiment)**  
 
 **Business Question:**  
 Does offering a 10% discount to high-LTV users actually drive incremental revenue, or just subsidize existing behavior?
@@ -51,7 +51,7 @@ Does offering a 10% discount to high-LTV users actually drive incremental revenu
 ---
 
 ### 📊 FP&A Profitability & Competitive Trends Dashboard  
-👉 **[View Dashboard / Repo](https://github.com/tcampayne/YOUR-REPO-NAME)**  
+👉 **[View Dashboard / Repo](https://github.com/tcampayne/fpa-profitability-market-trends-dashboard)**  
 
 **What I Built:**
 - SQL analytics mart with **20 years of data across 500+ companies**
