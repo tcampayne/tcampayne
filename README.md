@@ -13,7 +13,7 @@
 I’m a data analyst focused on **experimentation, product analytics, and SQL pipelines**.
 
 I build end-to-end projects that:
-- Measure **causal impact (not just correlation)**
+- **Estimate causal impact and clearly communicate assumptions and limitations**
 - Translate data into **clear product decisions**
 - Quantify **revenue and user behavior outcomes**
 
@@ -28,23 +28,26 @@ I build end-to-end projects that:
 Does offering a 10% discount to high-LTV users actually drive incremental revenue, or just subsidize existing behavior?
 
 **Result (TL;DR):**
-- **+$28.5 incremental revenue per user (+8.2%)**
-- **~$1.7M projected uplift** with targeted rollout  
+- **+$8.50 incremental revenue per user** (95% CI: [7.83, 9.16])  
+- **-$2.99 net impact per user** after discount cost  
+
+**Conclusion:**  
+While the promotion increases revenue, it is not profitable at a 10% blanket discount level. Results suggest value in more targeted discounting strategies rather than broad rollout. 
 
 **How I Approached It:**
 - Designed randomized experiment across **~61.9K users**
 - Built SQL pipeline (**staging → core → marts**) for experiment-ready data  
-- Validated treatment/control balance before analysis  
+- Evaluated treatment/control balance and diagnosed pre-treatment differences using event-study analysis  
 
 **Causal Methods:**
 - Difference-in-Differences  
-- Event study analysis  
+- Diagnosed violations of the parallel trends assumption via event study 
 - Two-way fixed effects regression (user + time)  
 - Cluster-robust standard errors  
 
 **Deep Dive:**
 - Identified heterogeneous treatment effects using **causal forests (EconML)**  
-- Found strongest lift among top LTV segments → informed targeting strategy  
+- Observed larger absolute lift among higher baseline spend users, informing potential targeting strategies
 
 **Tools:** SQL, Python, Pandas, EconML, Streamlit  
 
