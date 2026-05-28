@@ -1,7 +1,9 @@
 # Tristen Campayne
-**Product Analytics Candidate - Experimentation, Causal Inference & SQL**
+**Product Analytics | Experimentation, Causal Inference & Scalable SQL**
 
-I build experiment pipelines and causal analyses that turn ambiguous product questions into defensible revenue decisions.
+I build experiment pipelines and causal analyses that help teams decide what to launch, who to target, and when measured lift is actually profitable.
+
+UCF Business Administration: Marketing student graduating December 2026. Incoming analytics internships with **Walmart Merchandising Analytics** and **Universal Destinations & Experiences Audience Science**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/tristen-campayne/)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau)](https://public.tableau.com/app/profile/tristen.campayne)
@@ -11,9 +13,13 @@ I build experiment pipelines and causal analyses that turn ambiguous product que
 
 ## About
 
-I'm a UCF Business Administration student focused on product analytics, experimentation, and causal inference. I design randomized experiments, build reproducible SQL pipelines, and translate statistical results into product and revenue decisions.
+I'm focused on product analytics roles where experimentation, causal inference, and SQL-backed decision systems matter. My work centers on A/B testing, incrementality measurement, heterogeneous treatment effects, and reproducible analytics pipelines.
 
-Incoming analytics internships: **Walmart Merchandising Analytics** (Summer 2026) and **Universal Destinations & Experiences - Audience Science** (Fall 2026), focused on customer behavior, A/B testing, personalization, and Snowflake/Databricks workflows.
+Current focus areas:
+- Experiment design and causal measurement
+- SQL pipelines for experiment-ready datasets
+- Revenue, basket size, AOV, and customer behavior analysis
+- Translating statistical results into launch, targeting, and pricing recommendations
 
 ---
 
@@ -22,14 +28,16 @@ Incoming analytics internships: **Walmart Merchandising Analytics** (Summer 2026
 ### A/B Promotion Incrementality Analysis
 **[View Project Repo](https://github.com/tcampayne/targeted-promotion-incrementality-experiment)**
 
-**Business question:** Does a 10% discount for high-LTV users drive incremental revenue, or mostly subsidize behavior that would have happened anyway?
+Designed and analyzed a randomized promotion experiment to determine whether a 10% discount created incremental revenue or subsidized purchases users would have made anyway.
+
+**Decision outcome:** The promotion generated gross lift but was not profitable under the simplified cost model, leading to a recommendation against blanket rollout and toward targeted retesting.
 
 **Impact:**
 - Measured **+$28.50 incremental revenue per user** over 6 weeks, 95% CI: [$23.90, $33.11]
-- Estimated **+8.2% simulated revenue lift** across **61.9K users**
-- Projected **$1.7M gross revenue lift** before discount costs
-- Found the blanket 10% discount was **not profitable under the simplified cost model**: estimated net impact of **-$9.29 per user**
-- Used heterogeneous treatment effect analysis to identify where targeted discounting may outperform broad rollout
+- Estimated **+8.2% simulated gross revenue lift** across **61.9K users**
+- Projected **$1.7M gross revenue lift before discount costs**
+- Found estimated **net impact of -$9.29 per user** under the simplified cost model
+- Used causal forest HTE analysis to identify segments where targeted discounting may outperform broad rollout
 
 **Approach:**
 - Designed a randomized experiment across ~61.9K users
@@ -50,10 +58,12 @@ Incoming analytics internships: **Walmart Merchandising Analytics** (Summer 2026
 ### FP&A Profitability & Competitive Trends Dashboard
 **[View Repo](https://github.com/tcampayne/fpa-profitability-market-trends-dashboard)**
 
-- Built a SQL analytics mart spanning 20 years of data across 500+ public companies
-- Created an executive Tableau dashboard for profitability trends, KPI drill-downs, and cross-industry benchmarking
-- Applied OLS regression to estimate the relationship between R&D investment, advertising spend, and revenue growth
-- Improved forecast accuracy by 30% and reduced KPI refresh time by 40%
+Built a SQL-backed Tableau dashboard to analyze profitability, investment efficiency, and competitive trends across 500+ public companies and 20 years of financial data.
+
+- Modeled company-level profitability and growth trends using reusable SQL marts
+- Created executive views for KPI drill-downs, industry benchmarking, and trend diagnosis
+- Applied OLS regression to estimate relationships between R&D, advertising spend, and revenue growth
+- Reduced recurring KPI refresh time by 40%
 
 **Tools:** SQL | Tableau | Excel
 
