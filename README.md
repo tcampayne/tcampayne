@@ -1,7 +1,7 @@
 # Tristen Campayne
-**Data Analyst — Experimentation & Causal Inference**
+**Product Analytics Candidate - Experimentation, Causal Inference & SQL**
 
-Building experiment infrastructure and causal models that turn ambiguous product questions into defensible revenue decisions.
+I build experiment pipelines and causal analyses that turn ambiguous product questions into defensible revenue decisions.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/tristen-campayne/)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau)](https://public.tableau.com/app/profile/tristen.campayne)
@@ -11,48 +11,51 @@ Building experiment infrastructure and causal models that turn ambiguous product
 
 ## About
 
-I design randomized experiments, build reproducible SQL pipelines, and apply causal inference methods to quantify product and revenue impact.
+I'm a UCF Business Administration student focused on product analytics, experimentation, and causal inference. I design randomized experiments, build reproducible SQL pipelines, and translate statistical results into product and revenue decisions.
 
-Incoming: **Walmart Merchandising Analytics** (Summer 2026) · **Universal Destinations & Experiences — Audience Science** (Fall 2026), where I'll be working on A/B testing, personalization models, and Snowflake/Databricks pipelines.
+Incoming analytics internships: **Walmart Merchandising Analytics** (Summer 2026) and **Universal Destinations & Experiences - Audience Science** (Fall 2026), focused on customer behavior, A/B testing, personalization, and Snowflake/Databricks workflows.
 
 ---
 
 ## Featured Work
 
 ### A/B Promotion Incrementality Analysis
-👉 **[View Project Repo](https://github.com/tcampayne/targeted-promotion-incrementality-experiment)**
+**[View Project Repo](https://github.com/tcampayne/targeted-promotion-incrementality-experiment)**
 
-**Business question:** Does a 10% discount on high-LTV users drive incremental revenue, or just subsidize existing behavior?
+**Business question:** Does a 10% discount for high-LTV users drive incremental revenue, or mostly subsidize behavior that would have happened anyway?
 
-**Results:**
-- **+$28.50 incremental revenue per user** (6-week cumulative ATE) · 95% CI: [$23.90, $33.10]
-- **+8.2% revenue lift** across 61.9K users · **$1.7M projected impact**
-- Causal forest HTE revealed top-spend users drove disproportionate lift — suggesting targeted discount tiers would outperform blanket rollout
+**Impact:**
+- Measured **+$28.50 incremental revenue per user** over 6 weeks, 95% CI: [$23.90, $33.11]
+- Estimated **+8.2% simulated revenue lift** across **61.9K users**
+- Projected **$1.7M gross revenue lift** before discount costs
+- Found the blanket 10% discount was **not profitable under the simplified cost model**: estimated net impact of **-$9.29 per user**
+- Used heterogeneous treatment effect analysis to identify where targeted discounting may outperform broad rollout
 
 **Approach:**
-- Designed randomized experiment across ~61.9K users
-- Built end-to-end SQL pipeline (staging → core → marts) for experiment-ready data
-- Validated treatment/control balance and diagnosed pre-treatment trends via event-study analysis
+- Designed a randomized experiment across ~61.9K users
+- Built an end-to-end SQL pipeline from staging to core tables to experiment-ready marts
+- Validated treatment/control balance and diagnosed pre-treatment trends through event-study analysis
+- Connected statistical results to a clear business recommendation: avoid blanket rollout; test lower discount levels or targeted offers
 
-**Causal methods:**
-- Difference-in-Differences with parallel trends diagnostics
-- Two-way fixed effects regression (user + time FE)
+**Methods:**
+- Difference-in-Differences with pre-trend diagnostics
+- Two-way fixed effects regression with user and time fixed effects
 - Cluster-robust standard errors
-- Heterogeneous treatment effects via causal forests (EconML)
+- Exploratory heterogeneous treatment effects via causal forests
 
-**Tools:** SQL · Python · Pandas · EconML · Streamlit
+**Tools:** SQL | Python | Pandas | EconML | Streamlit
 
 ---
 
 ### FP&A Profitability & Competitive Trends Dashboard
-👉 **[View Repo](https://github.com/tcampayne/fpa-profitability-market-trends-dashboard)**
+**[View Repo](https://github.com/tcampayne/fpa-profitability-market-trends-dashboard)**
 
-- SQL analytics mart spanning 20 years of data across 500+ public companies
-- Executive-level Tableau dashboard with drill-down KPI views and cross-industry benchmarking
-- OLS regression quantifying impact of R&D and ad spend on revenue growth
-- 30% improvement in forecast accuracy · 40% faster KPI refresh
+- Built a SQL analytics mart spanning 20 years of data across 500+ public companies
+- Created an executive Tableau dashboard for profitability trends, KPI drill-downs, and cross-industry benchmarking
+- Applied OLS regression to estimate the relationship between R&D investment, advertising spend, and revenue growth
+- Improved forecast accuracy by 30% and reduced KPI refresh time by 40%
 
-**Tools:** SQL · Tableau · Excel
+**Tools:** SQL | Tableau | Excel
 
 ---
 
@@ -61,10 +64,11 @@ Incoming: **Walmart Merchandising Analytics** (Summer 2026) · **Universal Desti
 | Area | Tools & Methods |
 |---|---|
 | Experimentation | A/B Testing, Difference-in-Differences, Event Studies, TWFE, Causal Forests |
+| Analytics Engineering | SQL Pipelines, Experiment Marts, Reproducible Analysis Workflows |
 | Languages | SQL (PostgreSQL), Python, R |
 | Libraries | Pandas, EconML, scikit-learn, Streamlit |
 | BI & Visualization | Tableau, Power BI |
-| Platforms | Snowflake, Databricks *(Universal internship, Fall 2026)* |
+| Platforms | Snowflake, Databricks |
 
 ---
 
@@ -74,4 +78,3 @@ Incoming: **Walmart Merchandising Analytics** (Summer 2026) · **Universal Desti
 - [Tableau Public](https://public.tableau.com/app/profile/tristen.campayne)
 - [GitHub](https://github.com/tcampayne/)
 - [tcampayne@gmail.com](mailto:tcampayne@gmail.com)
-
