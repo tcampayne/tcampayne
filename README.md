@@ -3,7 +3,7 @@
 
 I build experiment pipelines and causal analyses that help teams decide what to launch, who to target, and when measured lift is actually profitable.
 
-UCF Business Administration: Marketing student graduating December 2026. Incoming analytics internships with **Walmart Merchandising Analytics** and **Universal Destinations & Experiences Audience Science**.
+UCF Business Administration: Marketing student graduating December 2026. 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/tristen-campayne/)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau)](https://public.tableau.com/app/profile/tristen.campayne)
